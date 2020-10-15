@@ -8,7 +8,12 @@ train:
     type: pandas.CSVDataSet
     filepath: data/01_raw/train.csv
     load_args:
-        
+        dtype: {'row_id': 'Int64', 'timestamp' : 'Int64', 'user_id' : 'Int32', 'content_id' : 'Int16', 
+                'content_type_id' : 'Int8', 'task_container_id' : 'Int16', 'user_answer' : 'Int8',
+                'answered_correctly' : 'Int8', 'prior_question_elapsed_time' : 'Float32',
+                'prior_question_had_explanation' : str,
+               } 
+        nrows: 10000
     layer: raw
 
 
