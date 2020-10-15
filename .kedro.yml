@@ -1,0 +1,6 @@
+context_path: riid_kaggle.run.ProjectContext
+project_name: "riid_kaggle"
+project_version: "0.16.5"
+package_name: "riid_kaggle"
+hooks:
+  - riid_kaggle.hooks.project_hooks
