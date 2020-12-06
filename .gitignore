@@ -159,3 +159,4 @@ venv.bak/
 #Custom
 *.json
 *.bin
+*.csv
